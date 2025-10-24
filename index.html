@@ -17,6 +17,7 @@
           <option value="uk">Українська</option>
           <option value="ru">Русский</option>
           <option value="en" selected>English</option>
+          <option value="cs">Čeština</option>
         </select>
       </div>
     </div>
@@ -65,6 +66,17 @@
         </div>
       </div>
     </section>
+    <section id="gallery" class="reveal">
+      <div class="card">
+        <h2 data-i18n="gallery_h">Gallery</h2>
+        <div class="scroll-gallery" aria-label="Photo gallery (horizontal scroll)">
+          <img src="photo1.jpeg" alt="Project photo 1" loading="lazy" />
+          <img src="license1.jpg" alt="Project photo 2" loading="lazy" />
+          <img src="license2.jpg" alt="Project photo 3" loading="lazy" />
+          <img src="photo2.jpg" alt="Project photo 4" loading="lazy" />
+        </div>
+      </div>
+    </section>
     <section id="projects" class="reveal">
       <div class="card">
         <h2 data-i18n="projects_h"></h2>
@@ -85,6 +97,22 @@
         </div>
       </div>
     </section>
+    <section id="partners" class="reveal">
+      <div class="card">
+        <h2 data-i18n="partners_h">Partners & Links</h2>
+        <div class="partners-logos">
+          <a href="https://pchernov5.wixsite.com/irecology" target="_blank" rel="noopener">
+            <img src="ire.png" alt="Partner 1" loading="lazy" />
+          </a>
+          <a href="https://pchernov5.wixsite.com/pmcc" target="_blank" rel="noopener">
+            <img src="pmcc.jpeg" alt="Partner 2" loading="lazy" />
+          </a>
+          <a href="https://pchernov5.wixsite.com/survivors-foundation" target="_blank" rel="noopener">
+            <img src="surfound.png" alt="Partner 3" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </section>
     <section id="contact" class="reveal">
       <div class="card">
         <h2 data-i18n="contact_h"></h2>
@@ -96,6 +124,10 @@
        <div class="muted" style="margin-top:10px" data-i18n="legal"></div>
     </footer>
   </main>
+  <div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" alt="">
+</div>
   <script src="index.js"></script>
 </body>
 </html>
