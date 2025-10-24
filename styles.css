@@ -217,6 +217,107 @@ min-height: 80vh;
   }
 }
 
+.scroll-gallery{
+  display:flex;
+  gap:12px;
+  overflow-x:auto;
+  padding:8px 4px 4px;
+  margin:0 -12px;
+  scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.scroll-gallery::-webkit-scrollbar{ display:none; }
+.scroll-gallery img{
+  flex:0 0 auto;
+  height:220px;
+  width:auto;
+  border-radius:14px;
+  object-fit:cover;
+  scroll-snap-align:start;
+  user-select:none;
+  box-shadow: var(--shadow);
+  border:1px solid rgba(255,255,255,.12);
+}
+
+@media (max-width:900px){
+  .scroll-gallery img{ height:40vh; max-height:320px; }
+}
+
+/* Partners / logos */
+.partners-logos{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap:14px;
+  align-items:center;
+}
+.partners-logos a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:16px;
+  border-radius:14px;
+  background:transparent;
+  border:1px solid rgba(255,255,255,.10);
+  box-shadow: var(--shadow);
+  transition: transform .2s ease, filter .2s ease, background .2s ease;
+  overflow:hidden;
+  aspect-ratio: 1 / 1;
+}
+.partners-logos img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: none;
+  opacity: .9;
+  transition: transform .2s ease, opacity .2s ease;
+}
+.partners-logos a:hover img {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.partners-logos a:hover{ transform: translateY(-2px); background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)); }
+.partners-logos img{
+  max-height:56px;
+  width:auto;
+  filter:saturate(0) opacity(.85);
+  transition: filter .2s ease;
+}
+.partners-logos a:hover img{ filter:none; opacity:1; }
+
+.lightbox {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+}
+.lightbox.open { display: flex; }
+.lightbox-img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  object-fit: contain;
+  animation: zoomIn .25s ease;
+}
+.lightbox .close {
+  position: absolute;
+  top: 20px; right: 28px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+@keyframes zoomIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
 
 @media (max-width: 420px){
   .stat .muted:first-child {       
@@ -228,4 +329,3 @@ min-height: 80vh;
 @media (max-width: 900px){
   .navlinks{ flex-wrap: wrap; row-gap: 8px; }
 }
-
