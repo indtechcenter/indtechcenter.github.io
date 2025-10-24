@@ -11,6 +11,7 @@
       mission_h:"Місія", mission_p:"Забезпечити незалежне та безпечне виробництво і постачання електричної енергії для ринку країн Європейського Союзу шляхом створення і розвитку підприємств ядерно‑паливного циклу.",
       strategy_h:"Стратегія", strategy_p:"Забезпечити всеосяжний комплекс заходів зі створення замкненого виробничого циклу до 2040 року.",
       experience_h:"Досвід", exp1:"20 років у галузі уранового виробництва.", exp2:"30+ років комплексної розробки технологій екологічно безпечної переробки відходів із застосуванням низькотемпературної високопотужної плазми.",
+      gallery_h: "Галерея",
       projects_h:"Завдання компанії",
       task1:"Участь у проектах зі створення альтернативного постачальника концентрату природного урану та ядерного палива для АЕС проєкту ВВЕР і АС малої потужності.",
       task2:"Забезпечення видобутку уранової сировини та виробництва уранового оксидного концентрату і гексафториду природного урану до 3000 т U/рік.",
@@ -21,6 +22,7 @@
       task7:"Участь у будівництві заводу з виробництва ядерного палива.",
       task8:"Участь у будівництві атомних станцій малої потужності.",
       st1:"Ціль видобутку", st1_1:"т урану / рік", st2:"Досвід уранового виробництва", st2b:"років", st3:"наук.-тех. розробки переробки відходів (низькотемп. плазма)", st3b:"років",
+      partners_h:"Партнери",
       contact_h:"Зв’язок", contact_p:"Надішліть нам лист — ",
       legal:"© 2018–2025 ТОВ Центр промислових технологій, Чеська Республіка. Ідентифікаційний номер: 06 863 361"
     },
@@ -36,6 +38,7 @@
       mission_h:"Миссия", mission_p:"Обеспечить независимое и безопасное производство и поставки электрической энергии для стран ЕС на основе создания и развития предприятий ядерно‑топливного цикла.",
       strategy_h:"Стратегия", strategy_p:"Обеспечить комплекс мероприятий по созданию замкнутого производственного цикла к 2040 году.",
       experience_h:"Опыт", exp1:"20 лет в области уранового производства.", exp2:"Более 30 лет разработки технологий экологически безопасной переработки отходов с применением низкотемпературной высокомощной плазмы.",
+      gallery_h: "Галерея",
       projects_h:"Задачи компании",
       task1:"Участие в проектах по созданию альтернативного поставщика концентрата природного урана и ядерного топлива для АЭС проекта ВВЭР и АС малой мощности.",
       task2:"Обеспечить добычу уранового сырья и производство уранового оксидного концентрата и гексафторида природного урана до 3000 т U/год.",
@@ -46,6 +49,7 @@
       task7:"Участие в строительстве завода по производству ядерного топлива.",
       task8:"Участие в строительстве атомных станций малой мощности.",
       st1:"Цель добычи", st1_1:"т урана / год", st2:"Опыт уранового производства", st2b:"лет", st3:"науч.-тех. разработки переработки отходов (низкотемп. плазма)", st3b:"лет",
+      partners_h:"Партнеры",
       contact_h:"Связь", contact_p:"Напишите нам письмо — ",
       legal:"© 2018–2025 ООО Центр промышленных технологий, Чешская Республика. Идентификационный номер: 06 863 361"
     },
@@ -61,6 +65,7 @@
       mission_h:"Mission", mission_p:"Ensure independent and safe generation and supply of electricity for EU markets through creation and development of nuclear fuel cycle enterprises.",
       strategy_h:"Strategy", strategy_p:"Deliver a comprehensive program to establish a closed production cycle by 2040.",
       experience_h:"Experience", exp1:"20 years in uranium production.", exp2:"30+ years advancing eco‑safe waste processing using high‑power low‑temperature plasma.",
+      gallery_h: "Gallery",
       projects_h:"Company Objectives",
       task1:"Participate in projects to create an alternative supplier of natural uranium concentrate and nuclear fuel for VVER and small modular reactors.",
       task2:"Secure mining and production of uranium oxide concentrate and natural uranium hexafluoride up to 3,000 t U/year.",
@@ -71,8 +76,44 @@
       task7:"Participate in construction of a nuclear fuel fabrication plant.",
       task8:"Participate in construction of small modular reactors.",
       st1:"Mining target", st1_1:"t uranium / year", st2:"Uranium production experience", st2b:"years", st3:"sci.-tech. development of waste treatment (low‑temp plasma)", st3b:"years",
+      partners_h:"Partners",
       contact_h:"Contact", contact_p:"Send us an email — ",
       legal:"© 2018–2025 Center of Industrial Technologies LTD, Czech Republic. Company ID: 06 863 361"
+    },
+    cs: {
+      site_title: "Centrum průmyslových technologií — Oficiální stránky",
+      nav_about: "O společnosti", nav_mission:"Mise", nav_strategy:"Strategie", nav_projects:"Úkoly", nav_contacts:"Kontakty",
+      hero_title:"Nezávislá a bezpečná energetika pro Evropu",
+      hero_sub:"Vznik a rozvoj podniků jaderného palivového cyklu, výstavba malých modulárních reaktorů a vědecko-výrobní spolupráce.",
+      cta_contact:"Kontaktovat nás", cta_learn:"Zjistit více",
+      about_h:"O společnosti",
+      about_p1:"Společnost Center of Industrial Technologies s.r.o. (Česká republika) byla založena v roce 2018. Identifikační číslo: 06 863 361. Výkonný ředitel — Oleksandr Grebeniuk.",
+      about_p2:"Zaměřujeme se na spolehlivou výrobu a dodávky elektřiny pro trh EU prostřednictvím rozvoje podniků jaderného palivového cyklu.",
+      contacts_h:"Kontakty", contacts_email:"E-mail", contacts_country:"Česká republika",
+      mission_h:"Mise",
+      mission_p:"Zajistit nezávislou a bezpečnou výrobu a dodávky elektrické energie pro trh Evropské unie prostřednictvím vytváření a rozvoje podniků jaderného palivového cyklu.",
+      strategy_h:"Strategie",
+      strategy_p:"Realizovat komplexní program k vytvoření uzavřeného výrobního cyklu do roku 2040.",
+      experience_h:"Zkušenosti",
+      exp1:"20 let v oblasti těžby uranu.",
+      exp2:"Více než 30 let vývoje technologií ekologicky bezpečného zpracování odpadů s využitím nízkoteplotní vysokovýkonné plazmy.",
+      gallery_h:"Galerie",
+      projects_h:"Úkoly společnosti",
+      task1:"Účast na projektech zaměřených na vytvoření alternativního dodavatele přírodního uranového koncentrátu a jaderného paliva pro elektrárny typu VVER a malé modulární reaktory.",
+      task2:"Zajištění těžby uranové suroviny a výroby oxidového koncentrátu a hexafluoridu přírodního uranu do 3 000 t U/rok.",
+      task3:"Nákup, geologický průzkum a rozvoj licencovaných oblastí ve státech Střední Asie a Afriky.",
+      task4:"Rozvoj vědecko-výrobní spolupráce s předními producenty přírodního uranového koncentrátu.",
+      task5:"Rozvoj související výroby vzácných zemin, polymetalických a drahých kovů a slitin.",
+      task6:"Účast na kapacitách pro obohacování uranu.",
+      task7:"Účast na výstavbě závodu na výrobu jaderného paliva.",
+      task8:"Účast na výstavbě jaderných elektráren malé kapacity.",
+      st1:"Cíl těžby", st1_1:"t uranu / rok",
+      st2:"Zkušenosti s výrobou uranu", st2b:"let",
+      st3:"Vědecko-technický vývoj zpracování odpadů (nízkoteplotní plazma)", st3b:"let",
+      partners_h:"Partneři",
+      contact_h:"Kontakt",
+      contact_p:"Napište nám — ",
+      legal:"© 2018–2025 Center of Industrial Technologies s.r.o., Česká republika. IČ: 06 863 361"
     }
   };
 
@@ -146,4 +187,28 @@ window.addEventListener('scroll', () => {
   else heroSection.classList.remove('shrink');
 });
 
+const galleryImages = document.querySelectorAll('.scroll-gallery img');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.querySelector('.lightbox-img');
+const closeBtn = document.querySelector('.lightbox .close');
 
+galleryImages.forEach(img => {
+  img.addEventListener('click', () => {
+    lightbox.classList.add('open');
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    document.body.style.overflow = 'hidden'; 
+  });
+});
+
+closeBtn.addEventListener('click', () => {
+  lightbox.classList.remove('open');
+  document.body.style.overflow = '';
+});
+
+lightbox.addEventListener('click', e => {
+  if (e.target === lightbox) {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+});
