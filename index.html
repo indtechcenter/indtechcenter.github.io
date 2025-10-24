@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="site_title"></title>
+  <link rel="icon" type="images/x-icon" href="logo.png" />
+  <meta name="description" content="Центр промислових технологій — енергетичні проєкти, ядерно-паливний цикл, будівництво АС малої потужності. Чехія, засновано у 2018 році." />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+    <div class="brand"><img src="logo.png" alt="Company logo" class="logo-img" />
+    <div>Center of Industrial Technologies</div></div>
+      <div class="lang">
+        <select id="langSel" aria-label="Language selector">
+          <option value="uk">Українська</option>
+          <option value="ru">Русский</option>
+          <option value="en" selected>English</option>
+        </select>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero reveal show">
+      <div class="hero-inner">
+        <img class="hero-bg" src="earth.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <div class="hero-content">
+          <h1 data-i18n="hero_title"></h1>
+          <p data-i18n="hero_sub"></p>
+          <div class="cta">
+            <a class="btn primary" href="mailto:industrial.tech.center@gmail.com" data-i18n="cta_contact"></a>
+            <a class="btn" href="#about" data-i18n="cta_learn"></a>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; justify-content:center">
+        </div>
+      </div>
+    </section>
+    <section id="about" class="reveal">
+      <div class="grid cols-2">
+        <div class="card">
+          <h2 data-i18n="about_h"></h2>
+          <p class="muted" data-i18n="about_p1"></p>
+          <p class="muted" data-i18n="about_p2"></p>
+        </div>
+        <div class="card">
+            <h2 data-i18n="mission_h"></h2>
+            <p class="muted" data-i18n="mission_p"></p>
+        </div>
+      </div>
+    </section>
+    <section id="strategy" class="reveal">
+      <div class="grid cols-2">
+        <div class="card">
+          <h2 data-i18n="strategy_h"></h2>
+          <p class="muted" data-i18n="strategy_p"></p>
+        </div>
+        <div class="card">
+          <h2 data-i18n="experience_h"></h2>
+          <ul class="clean muted">
+            <li><span data-i18n="exp1"></span></li>
+            <li><span data-i18n="exp2"></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="reveal">
+      <div class="card">
+        <h2 data-i18n="projects_h"></h2>
+        <ul class="clean">
+          <li data-i18n="task1"></li>
+          <li data-i18n="task2"></li>
+          <li data-i18n="task3"></li>
+          <li data-i18n="task4"></li>
+          <li data-i18n="task5"></li>
+          <li data-i18n="task6"></li>
+          <li data-i18n="task7"></li>
+          <li data-i18n="task8"></li>
+        </ul>
+        <div class="stats" aria-hidden="true" style="margin-top:14px">
+          <div class="stat"><div class="muted" data-i18n="st1"></div><h3 id="tonsCounter">0</h3><div class="muted" data-i18n="st1_1"></div></div>
+          <div class="stat"><div class="muted" data-i18n="st2"></div><h3 class="with-plus" id="uraniumCounter">0</h3><div class="muted" data-i18n="st2b"></div></div>
+          <div class="stat"><div class="muted" data-i18n="st3"></div><h3 class="with-plus" id="plasmaCounter">0</h3><div class="muted" data-i18n="st3b"></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="reveal">
+      <div class="card">
+        <h2 data-i18n="contact_h"></h2>
+        <p class="muted" data-i18n="contact_p"></p>
+        <p class="kbd"><a href="mailto:industrial.tech.center@gmail.com">industrial.tech.center@gmail.com</a></p>
+      </div>
+    </section>
+    <footer>
+       <div class="muted" style="margin-top:10px" data-i18n="legal"></div>
+    </footer>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
