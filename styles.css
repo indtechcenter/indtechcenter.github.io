@@ -225,9 +225,23 @@ min-height: 80vh;
   margin:0 -12px;
   scroll-snap-type:x mandatory;
   -webkit-overflow-scrolling:touch;
-  scrollbar-width:none;
+  /* scrollbar-width:none; */
+  scrollbar-width: thin;             
+  scrollbar-color: var(--accent1) transparent;
 }
-.scroll-gallery::-webkit-scrollbar{ display:none; }
+
+.scroll-gallery::-webkit-scrollbar {
+  height: 8px;
+}
+.scroll-gallery::-webkit-scrollbar-thumb {
+  background-color: var(--accent1);
+  border-radius: 4px;
+}
+.scroll-gallery::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* .scroll-gallery::-webkit-scrollbar{ display:none; } */
 .scroll-gallery img{
   flex:0 0 auto;
   height:220px;
